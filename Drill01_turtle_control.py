@@ -35,12 +35,12 @@ def gameLoop():
     turtle.reset()
     turtle.shape('turtle')
     turtle.listen() 
-    while(True):
-        turtle.onkey(restart,'Escape')
-        turtle.onkey(WkeyMove,'w')
-        turtle.onkey(AkeyMove,'a')
-        turtle.onkey(SkeyMove,'s')
-        turtle.onkey(DkeyMove,'d')
+  
+    turtle.onkey(restart,'Escape')
+    turtle.onkey(WkeyMove,'w')
+    turtle.onkey(AkeyMove,'a')
+    turtle.onkey(SkeyMove,'s')
+    turtle.onkey(DkeyMove,'d')
 
  
 
